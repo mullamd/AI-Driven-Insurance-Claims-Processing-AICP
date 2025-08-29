@@ -1,14 +1,17 @@
 ﻿# 🚀 AI-Driven Insurance Claims Processing (AICP)
 
-End-to-end AWS-native pipeline for automated insurance claims:
-Textract → Glue Data Quality → SageMaker (XGBoost + SHAP) → ECS APIs → Redshift → QuickSight.
+End-to-end AWS-native pipeline for automated insurance claims:  
+Textract → Glue Data Quality → SageMaker (XGBoost + SHAP) → ECS APIs → Redshift → QuickSight.  
 CI/CD via GitHub Actions to Amazon ECR & ECS.
+
+---
 
 ## ℹ️ About
 End-to-end AI-Driven Insurance Claims Processing (AICP) with Claim API + Chatbot, built on AWS:  
 S3, Textract, Glue DQ, SageMaker, ECS Fargate, Redshift, QuickSight, Step Functions, Lambda, EventBridge, SNS, Lex, CloudWatch, GitHub Actions.
 
-@"
+---
+
 # 📌 AICP Project Roadmap
 
 The **AI-Driven Insurance Claims Processing (AICP)** project is built as an end-to-end AWS-native pipeline.  
@@ -20,8 +23,8 @@ It combines **document ingestion, data quality, fraud detection, APIs, chatbot, 
 - **Claim Submission** → PDFs/images via web portal or API uploaded to **Amazon S3**  
 - **Document Processing** → **Amazon Textract (Async)** extracts claim details into structured JSON  
 - **Data Validation** → **AWS Glue Data Quality** checks for completeness, accuracy, and duplicates  
-- Valid data → S3 `processed/claims-extracted-data/`  
-- Invalid data → S3 `processed/claims-failed-data/` with **SNS notifications**
+- ✅ Valid → `s3://aicp-claims-data/processed/claims-extracted-data/`  
+- ❌ Invalid → `s3://aicp-claims-data/processed/claims-failed-data/` with **SNS notifications**
 
 ---
 
@@ -74,10 +77,9 @@ It combines **document ingestion, data quality, fraud detection, APIs, chatbot, 
 ## ✅ Project Highlights
 - Claim intake → OCR → Data validation → Fraud detection → Decisions in minutes  
 - Fraud detection with **explainable AI (SHAP)**  
-- Integrated **Claim API** + **Chatbot** for transparency and customer interaction  
+- Integrated **Claim API + Chatbot** for transparency and customer interaction  
 - Scalable, AWS-native, production-ready design  
 
 ---
 
-**Designed & Implemented by: Mulla (AWS Cloud Data Engineer)**  
-"@ | Out-File -Encoding utf8 docs\ROADMAP.md
+**Designed & Implemented by: Mulla (AWS Cloud Data Engineer)**
