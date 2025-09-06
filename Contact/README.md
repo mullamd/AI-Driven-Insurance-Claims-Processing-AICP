@@ -1,6 +1,6 @@
 # 📧 Contact
 
-**Momin Mulla** — AWS Cloud Data Engineer  
+**MD Mulla** — AWS Cloud Data Engineer  
 
 - 📧 Email: [mullamd.de@gmail.com](mailto:mullamd.de@gmail.com)  
 - 📱 Phone: +1 (347) 258-1949  
