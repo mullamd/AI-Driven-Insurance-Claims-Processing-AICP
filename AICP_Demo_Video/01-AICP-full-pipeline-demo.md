@@ -4,7 +4,7 @@ This demo showcases the AI-Driven Insurance Claims Processing (AICP) system —
 an end-to-end AWS-native pipeline designed for automation, data quality validation, and AI-powered fraud detection.
 
 🔗 **Watch on YouTube:**  
-https://youtu.be/9gUnvshSlgg
+https://youtu.be/9gUnvshSIgg
 
 📂 Covers:
 - Claim Submission → Amazon S3
